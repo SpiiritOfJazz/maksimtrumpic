@@ -1,0 +1,117 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+	overflow: hidden;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 15px 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: black;
+}
+
+h1 {
+	font-family: Poppins, SemiBold;
+	font-size: 20px;
+	color: #ffffff;
+	width: 200px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+
+p {
+	font-family: Poppins, SemiBold;
+	font-size: 20px;
+	color: white;
+	margin: 0;
+}
+
+h2 {
+	font-family: Poppins, SemiBold;
+	font-size: 30px;
+	color: black;
+	width: 200px;
+	padding-bottom: 10px;
+	margin: 0;
+	margin-top: 80px;
+}
+
+svg {
+	height: 135vh;
+	margin-top: 30vh;
+	margin-left: 65vh;
+}
+
+svg{
+	transform:rotate(-360deg);
+	animation: mymove 7s infinite ;
+	animation-timing-function: linear;
+}
+
+@keyframes mymove{
+	from{rotate: 0deg}
+	to{rotate: -360deg}
+}
+.cls-1:hover{
+	fill: #f36e2c;
+}
+.cls-2:hover{
+	fill: #0099d8;
+}
+.cls-3:hover{
+	fill:#a765af;
+}
+#naslov {
+	margin-left: 50px;
+}
+
+#meni {
+	justify-self: end;
+	margin-right: 50px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+main {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 12vh 10vw;
+	grid-column-gap: 2vw;
+	grid-row-gap: 1.5vw;
+}
+
+.projekat img {
+	width: 100%;
+}
+
+.projekat:hover {
+	opacity: 60%;
+	cursor: pointer;
+	transition-duration: 150ms;
+}
+
+footer {
+	text-align: center;
+	margin: 30px;
+}
